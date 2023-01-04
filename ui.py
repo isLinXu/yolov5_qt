@@ -1085,8 +1085,8 @@ class Ui_MainWindow(object):
         self.pushButton_2.setText(_translate("MainWindow", "对比图展示"))
         self.pushButton_3.setText(_translate("MainWindow", "退出系统"))
         self.pushButton_4.setText(_translate("MainWindow", "通用识别检测"))
-        self.pushButton_5.setText(_translate("MainWindow", "交通检测"))
-        self.pushButton_6.setText(_translate("MainWindow", "交通标志检测"))
+        self.pushButton_5.setText(_translate("MainWindow", "绝缘子识别检测"))
+        self.pushButton_6.setText(_translate("MainWindow", "异物识别检测"))
 
         # 点击文本框绑定槽事件
         self.pushButton.clicked.connect(self.openfile)

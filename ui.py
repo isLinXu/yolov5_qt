@@ -40,8 +40,6 @@ from YOLO.yolov5_master.utils.general import apply_classifier, check_img_size, c
 from YOLO.yolov5_master.utils.plots import Annotator, colors
 from YOLO.yolov5_master.utils.torch_utils import load_classifier, select_device, time_sync
 
-from YOLO.det_ssd import ssd
-
 
 def det_yolov5v6(info1):
     result = []
@@ -83,7 +81,7 @@ def det_yolov5v6(info1):
             half=False,  # use FP16 half-precision inference
             dnn=False,  # use OpenCV DNN for ONNX inference
             ):
-        num = 0;
+        num = 0
         num2 = 0
         source = str(source)
         save_img = not nosave and not source.endswith('.txt')  # save inference images
